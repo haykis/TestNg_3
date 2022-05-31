@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite - Belirli Method calistirma">
+    <test name="Test - method testleri">
+        <classes>
+            <!-- calistirmak istedigimiz methodlari asagiya yazabiliyoruz -->
+            <class name="com.infoTech.pages.Tests.ActionsClass">
+                <methods>
+                    <!-- include method eklemis oluruz BENDE EKSIKLIK OLABILIR KLASLARA EK DUZELTME YAPMISTI-->
+                    <include name="sagTiklama"> </include>
+                    <include name="mouse"></include>
+                </methods>
+            </class>
+            <class name="com.infoTech.pages.Tests.Wait">
+                <!--exclude derseni calistirmak istemediginiz methodu koymus olursunuz -->
+                <methods>
+                    <exclude name="explicitlyWait"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+    <test name="Tum Testler">
+        <packages>
+            <!--Regrettion test 3 ayda bir yada her sprintten sonra yapilir -->
+            <!-- TestNG'de tum testleri calistirmak istersek tum paketleri
+             calistirmamiz yeterli olur-->
+            <package name=".*"></package>
+        </packages>
+    </test>
+</suite>

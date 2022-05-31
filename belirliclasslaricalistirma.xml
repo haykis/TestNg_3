@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite - amazon paketi">
+    <test name="Test - amazon paket testleri">
+        <classes>
+
+            <class name="com.infoTech.pages.Tests.AmazonTest"></class>
+            <class name="com.infoTech.pages.Tests.Ornek_AmazonKayitSayfasi"></class>
+
+        </classes>
+    </test>
+</suite>
